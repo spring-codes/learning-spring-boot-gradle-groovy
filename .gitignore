@@ -24,6 +24,10 @@ chap-02-01-start-reservations/.gradle
 chap-02-01-start-reservations/build
 chap-02-01-start-reservations/gradle/wrapper/gradle-wrapper.jar
 
+chap-02-03-start-reservations/.gradle
+chap-02-03-start-reservations/build
+chap-02-03-start-reservations/gradle/wrapper/gradle-wrapper.jar
+
 reservations-piat/.gradle
 reservations-piat/gradle/wrapper/gradle-wrapper.jar
 reservations-piat/build
