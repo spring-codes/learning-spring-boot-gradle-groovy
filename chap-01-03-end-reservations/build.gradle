@@ -17,7 +17,6 @@ sourceSets {
 		resources {
 			srcDirs =[
 					"src/main/resources",
-					"src/jbake"//in order to get site src content in the IDE
 			]
 		}
 	}
