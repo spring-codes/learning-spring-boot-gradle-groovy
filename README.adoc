@@ -1,0 +1,7 @@
+= learning_spring_boot_gradle_groovy
+
+This repository is based upon, this https://www.lynda.com/Spring-Framework-tutorials/Learning-Spring-Spring-Boot/550572-2.html[video course]
+entitled : Learning Spring with Spring Boot. +
+the content is organized into the a gradle projects on logical numerical order. +
+Finally I put it all together in the gradle project named reservations-piat. +
+You can also find the original source sample code into the zip archive: Ex_Files_Learning_Spring_Boot.zip. +
