@@ -8,11 +8,11 @@ import org.springframework.test.context.junit.jupiter.SpringExtension
 
 @CompileStatic
 @SpringBootTest
-@ExtendWith(SpringExtension.class)
+@ExtendWith(SpringExtension)
 class ReservationsApplicationTests {
 
     @Test
-	void contextLoads() {
+    void contextLoads() {
     }
 
 }
