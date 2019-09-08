@@ -20,6 +20,10 @@ chap-02-01-end-reservations/.gradle
 chap-02-01-end-reservations/build
 chap-02-01-end-reservations/gradle/wrapper/gradle-wrapper.jar
 
+chap-02-01-start-reservations/.gradle
+chap-02-01-start-reservations/build
+chap-02-01-start-reservations/gradle/wrapper/gradle-wrapper.jar
+
 reservations-piat/.gradle
 reservations-piat/gradle/wrapper/gradle-wrapper.jar
 reservations-piat/build
