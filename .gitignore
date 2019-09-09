@@ -49,7 +49,40 @@ chap-04-02-end-reservations/.gradle
 chap-04-02-end-reservations/build
 chap-04-02-end-reservations/gradle/wrapper/gradle-wrapper.jar
 
+chap-04-03-end-reservations/.gradle
+chap-04-03-end-reservations/build
+chap-04-03-end-reservations/gradle/wrapper/gradle-wrapper.jar
 
+chap-04-03-start-reservations/.gradle
+chap-04-03-start-reservations/build
+chap-04-03-start-reservations/gradle/wrapper/gradle-wrapper.jar
+
+
+chap-04-04-end-reservations/.gradle
+chap-04-04-end-reservations/build
+chap-04-04-end-reservations/gradle/wrapper/gradle-wrapper.jar
+
+chap-04-04-start-reservations/.gradle
+chap-04-04-start-reservations/build
+chap-04-04-start-reservations/gradle/wrapper/gradle-wrapper.jar
+
+
+chap-04-05-end-reservations/.gradle
+chap-04-05-end-reservations/build
+chap-04-05-end-reservations/gradle/wrapper/gradle-wrapper.jar
+
+chap-04-05-start-reservations/.gradle
+chap-04-05-start-reservations/build
+chap-04-05-start-reservations/gradle/wrapper/gradle-wrapper.jar
+
+
+chap-05-02-end-reservations/.gradle
+chap-05-02-end-reservations/build
+chap-05-02-end-reservations/gradle/wrapper/gradle-wrapper.jar
+
+chap-05-02-start-reservations/.gradle
+chap-05-02-start-reservations/build
+chap-05-02-start-reservations/gradle/wrapper/gradle-wrapper.jar
 
 reservations-piat/.gradle
 reservations-piat/gradle/wrapper/gradle-wrapper.jar
