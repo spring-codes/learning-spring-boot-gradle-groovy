@@ -43,7 +43,7 @@ class ReservationService {
             reservations.forEach(new Consumer<Reservation>() {
                 @Override
                 void accept(Reservation reservation) {
-                    Optional<Guest> optionalGuest = ReservationService.this.guestRepository.findById(reservation.getGuestId())
+                    Optional<Guest> optionalGuest = ReservationService.this.guestRepository.findOne(reservation.getGuestId())
                     assert optionalGuest.isPresent()
                     Guest guest = optionalGuest.get()
                     if (null != guest) {

@@ -7,28 +7,33 @@ import com.cheroliv.hotel.dto.RoomReservation
 import com.cheroliv.hotel.repository.GuestRepository
 import com.cheroliv.hotel.repository.ReservationRepository
 import com.cheroliv.hotel.repository.RoomRepository
+import groovy.transform.CompileStatic
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 
+import java.text.DateFormat
+import java.text.ParseException
+import java.text.SimpleDateFormat
 import java.util.function.Consumer
 
 @Service
+@CompileStatic
 class ReservationService {
     final RoomRepository roomRepository
     final GuestRepository guestRepository
     final ReservationRepository reservationRepository
 
+    static final DateFormat DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd")
+
     @Autowired
-    ReservationService(
-            RoomRepository roomRepository,
-            GuestRepository guestRepository,
-            ReservationRepository reservationRepository) {
+    ReservationService(RoomRepository roomRepository, GuestRepository guestRepository, ReservationRepository reservationRepository) {
         this.roomRepository = roomRepository
         this.guestRepository = guestRepository
         this.reservationRepository = reservationRepository
     }
 
-    List<RoomReservation> getRoomReservationsForDate(Date date) {
+    List<RoomReservation> getRoomReservationsForDate(String dateString) {
+        Date date = this.createDateFromDateString(dateString)
         Iterable<Room> rooms = this.roomRepository.findAll()
         Map<Long, RoomReservation> roomReservationMap = new HashMap<>()
         rooms.forEach(new Consumer<Room>() {
@@ -64,5 +69,19 @@ class ReservationService {
             roomReservations.add(roomReservationMap.get(roomId))
         }
         return roomReservations
+    }
+
+    Date createDateFromDateString(String dateString) {
+        Date date = null
+        if (null != dateString) {
+            try {
+                date = DATE_FORMAT.parse(dateString)
+            } catch (ParseException pe) {
+                date = new Date()
+            }
+        } else {
+            date = new Date()
+        }
+        return date
     }
 }
