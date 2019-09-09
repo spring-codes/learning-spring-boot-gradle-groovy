@@ -7,12 +7,14 @@ import com.cheroliv.hotel.dto.RoomReservation
 import com.cheroliv.hotel.repository.GuestRepository
 import com.cheroliv.hotel.repository.ReservationRepository
 import com.cheroliv.hotel.repository.RoomRepository
+import groovy.transform.CompileStatic
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 
 import java.util.function.Consumer
 
 @Service
+@CompileStatic
 class ReservationService {
     final RoomRepository roomRepository
     final GuestRepository guestRepository

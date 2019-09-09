@@ -8,6 +8,4 @@ class RoomReservation {
     String firstName
     String lastName
     Date date
-
-
 }
