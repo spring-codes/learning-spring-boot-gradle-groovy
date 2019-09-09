@@ -40,6 +40,15 @@ chap-03-02-end-reservations/.gradle
 chap-03-02-end-reservations/build
 chap-03-02-end-reservations/gradle/wrapper/gradle-wrapper.jar
 
+chap-04-02-start-reservations/.gradle
+chap-04-02-start-reservations/build
+chap-04-02-start-reservations/gradle/wrapper/gradle-wrapper.jar
+
+
+chap-04-02-end-reservations/.gradle
+chap-04-02-end-reservations/build
+chap-04-02-end-reservations/gradle/wrapper/gradle-wrapper.jar
+
 
 
 reservations-piat/.gradle
