@@ -84,9 +84,9 @@ chap-05-02-start-reservations/.gradle
 chap-05-02-start-reservations/build
 chap-05-02-start-reservations/gradle/wrapper/gradle-wrapper.jar
 
-reservations-piat/.gradle
-reservations-piat/gradle/wrapper/gradle-wrapper.jar
-reservations-piat/build
+reservations-putitalltogether/.gradle
+reservations-putitalltogether/gradle/wrapper/gradle-wrapper.jar
+reservations-putitalltogether/build
 
 */.settings
 */.classpath
